@@ -10,4 +10,8 @@ package VehicleSystem {
         attribute Power : Real;
         
     }
+    part def Wheel {
+        attribute radius : Real;
+        attribute pressure : Real;
+    }
 }
